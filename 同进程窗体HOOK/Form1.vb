@@ -23,6 +23,7 @@
 
         MsgBox(OldWinProc,, "初始委托地址")
         If OldWinProc = 0 Then End
+        Me.Text = "Hook 成功！"
     End Sub
 
     Private Sub Form_Unload(Cancel As Integer)
